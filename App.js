@@ -15,8 +15,8 @@ import TipDetailScreen from './src/screens/TipDetailScreen';
 
 const switchNavigator = createSwitchNavigator({
     loginFlow: createStackNavigator({
-        Signup: SignupScreen,
-        Signin: SigninScreen
+        Signin: SigninScreen,
+        Signup: SignupScreen
     }),
     Welcome: WelcomeScreen,
     Question: QuestionaireScreen,

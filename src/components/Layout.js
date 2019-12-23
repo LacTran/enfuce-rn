@@ -4,15 +4,15 @@ import config from '../../assets/config';
 
 
 
-const Container = styled.View`
+const Wrapper = styled.View`
     flex:1;
     margin-top: 100px;
 `
 
-export default function Container({ children }) {
+export default function Layout({ children }) {
     return (
-        <Container>
+        <Wrapper>
             {children}
-        </Container>
+        </Wrapper>
     )
 }
